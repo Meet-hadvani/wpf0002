@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp00002.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp00002"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Horizontal"  >
+            <Button x:Name="test001" Content="press me please"></Button>
+            <Button x:Name="test002" Content="Don't press /n me please" HorizontalAlignment="Stretch" ></Button>
+            <!--<Button x:Name="test003" Content="Again press /n me pretty please" HorizontalAlignment="Stretch" ></Button>
+            <Button x:Name="test004" Content="Never Again press " HorizontalAlignment="Stretch" ></Button>-->
+            <Image Source="/Image1.png" Height="90"  Width="90" ></Image>
+            <Button x:Name="test005" Content="Again 2 press me pretty please" HorizontalAlignment="Stretch"></Button>
+            <Button x:Name="test006" Content="Again 3 press me pretty please" HorizontalAlignment="Stretch" ></Button>
+            <Button x:Name="test007" Content="Again  4 press me pretty please" HorizontalAlignment="Stretch"></Button>
+
+        </StackPanel>
+    </Grid>
+</Window>
