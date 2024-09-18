@@ -1,42 +1,36 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    "net8.0-windows7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\vaduser\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\meet1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vaduser\\source\\repos\\WpfApp00002\\WpfApp00002\\WpfApp00002.csproj",
+      "projectUniqueName": "C:\\Users\\meet1\\OneDrive\\Desktop\\exercise\\test\\wpf0002\\WpfApp00002\\WpfApp00002.csproj",
       "projectName": "WpfApp00002",
-      "projectPath": "C:\\Users\\vaduser\\source\\repos\\WpfApp00002\\WpfApp00002\\WpfApp00002.csproj",
-      "packagesPath": "C:\\Users\\vaduser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vaduser\\source\\repos\\WpfApp00002\\WpfApp00002\\obj\\",
+      "projectPath": "C:\\Users\\meet1\\OneDrive\\Desktop\\exercise\\test\\wpf0002\\WpfApp00002\\WpfApp00002.csproj",
+      "packagesPath": "C:\\Users\\meet1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\meet1\\OneDrive\\Desktop\\exercise\\test\\wpf0002\\WpfApp00002\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\vaduser\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\meet1\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net8.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "projectReferences": {}
         }
       },
@@ -44,17 +38,24 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -66,7 +67,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
